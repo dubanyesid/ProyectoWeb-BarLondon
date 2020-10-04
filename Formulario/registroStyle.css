@@ -1,0 +1,55 @@
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    width: 75%;
+    margin: auto;
+    display: block;
+}
+
+.form-group {
+    margin: 15px auto;
+    text-align: left;
+    width: 80%;
+}
+
+.checkbox {
+    text-align: left;
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    display: block;
+}
+
+.button {
+    display: inline-block;
+    float: right;
+    margin: auto;
+}
+
+form {
+    justify-content: center;
+    border: 1px solid #36A0FF;
+    border-radius: 6px;
+    padding: 18px;
+}
+
+input {
+    text-align: center;
+}
+
+select {
+    text-align-last: center;
+}

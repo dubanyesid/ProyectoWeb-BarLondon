@@ -7,6 +7,7 @@
     <!-- BootstrapCDN CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="registroStyle.css">
 </head>
 
 <body>
@@ -56,26 +57,65 @@
     </header>
 
     <div class="container">
-        <h2>Formulario Vertical (básico)</h2>
         <form>
+            <h2>Registro</h2>
             <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" placeholder="Teclea tu email">
+                <label for="text">Nombres</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre completo">
             </div>
             <div class="form-group">
-                <label for="pwd">Contraseña:</label>
-                <input type="password" class="form-control" id="pwd" placeholder="Teclea tu contraseña">
+                <label for="text">Apellidos</label>
+                <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido completo">
+            </div>
+            <div class="form-group">
+                <label for="text">Dirección</label>
+                <input type="text" class="form-control" id="direccion" placeholder="Ingresa tu dirección">
+            </div>
+            <div class="form-group">
+                <label for="telefono">Telefono</label>
+                <input type="number" class="form-control" id="telefono" placeholder="Ingresa tu telefono">
+            </div>
+            <div class="form-group">
+                <label for="departamento">Departamento</label>
+                <select class="form-control" id="departamento">
+                    <option hidden selected>Selecciona el departamento</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="municipio">Ciudad</label>
+                <select class="form-control" id="municipio" disabled selected>
+                <option hidden selected>Selecciona el municipio</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingresa tu dirección de email">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Contraseña</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Ingresa tu contraseña">
             </div>
             <div class="checkbox">
-                <label><input type="checkbox"> Recu&eacute;rdame</label>
+                <label><input type="checkbox"> Recuérdame</label>
+                <div class="button">
+                    <button type="submit" class="btn btn-default">Enviar</button>
+                    <button type="submit" class="btn btn-default">Cancelar</button>
+                </div>
             </div>
-            <button type="submit" class="btn btn-default">Enviar</button>
+
         </form>
     </div>
+
+    <footer class="footer">
+        <div class="container"></div>
+        <p class="text-muted">Programación Aplicaciones Web - 2020</p>
+        </div>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="registroJS.js"></script>
 </body>
 
 </html>
