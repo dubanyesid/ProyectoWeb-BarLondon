@@ -28,7 +28,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: linear-gradient(90deg,#414040,rgb(29, 29, 29));
+    background: linear-gradient(120deg,#999898,rgb(29, 29, 29));
     text-align: center;
     border:white;
     border-radius: 20px;

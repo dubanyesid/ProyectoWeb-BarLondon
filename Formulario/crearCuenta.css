@@ -1,22 +1,45 @@
 body{
-    background-image: url("../Imagenes/1.jpg");
-    margin: 0;
-    padding : 0;
-    font-family: lucida bright;
-}
+    margin: 22px;
+    min-height: 100vh;
+    background-image: url("../Imagenes/bar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 1.0;
+  }
+  body:before{
+    width: 105%;
+    min-height: 105vh;
+    position: absolute;
+    top: 0;
+    left: 0;    
+  }
+  .box header{
+      color: white;
+      font-family: italic;
+      text-align: start;
+      font-size: 30px;
+  }
 .box{
-    width: 300px;
+    width: 320px;
     padding: 40px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: linear-gradient(45deg,gray,white);
+    background: linear-gradient(120deg,#999898,rgb(29, 29, 29));
     text-align: center;
-    border: white;
+    border:white;
+    border-radius: 20px;
+    height: 710px;
+    
 }
 .box h1{
-    color:black;
+    text-align: center;
+    width: 300px;
+    padding: 40px;
+    color:white;
     text-transform: uppercase;
     font-style: italic;
     font-weight: 500;
@@ -25,7 +48,7 @@ body{
 form {
     border: 1px solid;
     border-radius: 50px;
-    box-shadow: 1px 1px 1000px black;
+    box-shadow: 1px 1px 1000px white;
 }
 input {
     border:0;
@@ -34,11 +57,11 @@ input {
     margin : 20px auto;
     text-align: center;
     border: 1px solid;
-    border-color: black;
+    border-color:white;
     padding: 14px  10px;
     width: 200px;
     outline: none;
-    color: black;
+    color:black;
     border-radius: 24px;
     transition: 0.25s;
     font-style: italic;
@@ -47,7 +70,7 @@ input {
 input:focus{
     border: 2px solid;
     width: 280px;
-    border-color: orange;
+    border-color:black;
     
 }
 .box input[type ="Submit"]{
@@ -57,8 +80,8 @@ input:focus{
     margin: 20px auto;
     text-align: center;
     border: 1px solid;
-    border-color: black;
-    padding: 14px 40px;
+    border-color:black;
+    padding: 14px 30px;
     outline:none;
     color:black;
     border-radius: 24px;
@@ -71,7 +94,17 @@ input:focus{
 .box input[type = "Submit"]:hover {
     border: 2px solid;
     transition: 0.5s;
-    background-color: orange;
-    border-color: black;
+    background-color:rgb(12, 12, 12);
+    border-color:white;
     color: white;
 }
+#usuario, #Password{
+    color: black;
+}
+#frase{
+    color: white;
+    font-size: 22px;
+    font-family: italic;
+    text-align: inherit;
+}
+
