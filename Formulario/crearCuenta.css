@@ -1,0 +1,77 @@
+body{
+    background-image: url("../Imagenes/1.jpg");
+    margin: 0;
+    padding : 0;
+    font-family: lucida bright;
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(45deg,gray,white);
+    text-align: center;
+    border: white;
+}
+.box h1{
+    color:black;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 500;
+}
+
+form {
+    border: 1px solid;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1000px black;
+}
+input {
+    border:0;
+    background: none;
+    display: block;
+    margin : 20px auto;
+    text-align: center;
+    border: 1px solid;
+    border-color: black;
+    padding: 14px  10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-style: italic;
+    font-size: 15px;
+}
+input:focus{
+    border: 2px solid;
+    width: 280px;
+    border-color: orange;
+    
+}
+.box input[type ="Submit"]{
+    border:0;
+    background: none;
+    display :block;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid;
+    border-color: black;
+    padding: 14px 40px;
+    outline:none;
+    color:black;
+    border-radius: 24px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.box input[type = "Submit"]:hover {
+    border: 2px solid;
+    transition: 0.5s;
+    background-color: orange;
+    border-color: black;
+    color: white;
+}
