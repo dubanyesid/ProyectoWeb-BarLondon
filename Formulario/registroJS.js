@@ -53,5 +53,6 @@ $(document).ready(function() {
                 });
             }
         });
+        $("#municipio").prop('disabled', false);
     });
 });

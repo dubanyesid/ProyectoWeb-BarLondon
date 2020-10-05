@@ -7,6 +7,7 @@
     <!-- BootstrapCDN CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="registroStyle.css">
 </head>
 
 <body>
@@ -28,50 +29,71 @@
 
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="">Productos</a></li>
+                        <li><a id="txt-navbar" href="index.html">Inicio</a></li>
+                        <li><a id="txt-navbar" href="">Productos</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <a id="txt-navbar" href="#" class="dropdown-toggle" data-toggle="dropdown">
                             Categorias<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="#"></a>
+                                    <a id="txt-navbar" href="#"></a>
                                 </li>
                                 <li>
-                                    <a href="#"></a>
+                                    <a id="txt-navbar" href="#"></a>
                                 </li>
                                 <li>
-                                    <a href="#"></a>
+                                    <a id="txt-navbar" href="#"></a>
                                 </li>
                                 <li>
-                                    <a href="#"></a>
+                                    <a id="txt-navbar" href="#"></a>
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="">Contacto</a></li>
+                        <li><a id="txt-navbar" href="">Contacto</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
 
+
     <div class="container">
-        <h2>Formulario Vertical (básico)</h2>
         <form>
+            <h2>Iniciar Sesión</h2>
             <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" placeholder="Teclea tu email">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingresa tu dirección de email">
             </div>
             <div class="form-group">
-                <label for="pwd">Contraseña:</label>
-                <input type="password" class="form-control" id="pwd" placeholder="Teclea tu contraseña">
+                <label for="pwd">Contraseña</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Ingresa tu contraseña">
             </div>
             <div class="checkbox">
-                <label><input type="checkbox"> Recu&eacute;rdame</label>
+                <div class="button">
+                    <button id="btn-enviar" type="submit" class="btn btn-default">Ingresar</button>
+                </div>
+                <div class=lbl-recuerdame>
+                    <label><input type="checkbox"> Recuérdame</label>
+                </div>
             </div>
-            <button type="submit" class="btn btn-default">Enviar</button>
+            <div class="signup">
+                <div id="txtInfo">
+                    <p>¿No tienes cuenta?</p>
+                </div>
+                <div class="btn-login">
+                    <a href="crearCuenta.html" target="_blank">
+                        <input class="btn btn-default" type="button" value="Registrarse">
+                    </a>
+                </div>
+            </div>
         </form>
     </div>
+
+    <footer class="footer">
+        <div class="container"></div>
+        <p class="text-muted">Programación Aplicaciones Web - 2020</p>
+        </div>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->

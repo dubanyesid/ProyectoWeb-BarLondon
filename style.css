@@ -1,3 +1,7 @@
+body {
+    background-color: rgba(82, 80, 80, 0.932);
+}
+
 .footer {
     text-align: center;
     padding: 20px;
@@ -27,7 +31,33 @@
     float: right;
 }
 
+#txt-navbar {
+    color: aliceblue;
+}
+
+#txt-navbar:hover {
+    box-shadow: 0 0 2px rgba(54, 54, 54, 0.932), 0 0 2px rgba(54, 54, 54, 0.932), 0 0 2px rgba(54, 54, 54, 0.932);
+    color: aliceblue;
+}
+
+.navbar-default {
+    background-color: rgba(22, 21, 21, 0.932);
+}
+
 picture img {
     width: 95%;
     height: 80%;
+}
+
+@media (max-width: 600px) {
+    .navbar ul {
+        float: left;
+        width: 100%;
+    }
+    .navbar li:hover {
+        width: 100%;
+        background-color: black;
+        box-shadow: 0 0 4px rgba(20, 20, 20, 0.932), 0 0 4px rgba(19, 19, 19, 0.932), 0 0 4px rgba(20, 20, 20, 0.932);
+        color: aliceblue;
+    }
 }
