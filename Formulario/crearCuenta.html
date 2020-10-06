@@ -1,22 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
 
-    <title>Bootstrap Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="crearCuenta.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<title>Crear Cuenta</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">!-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!--<link rel="stylesheet" href="../style.css">!-->
+<link rel="stylesheet" href="crearCuenta.css">
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    >>>>>>> fdec45375dd765bdad1038be0e317d33cfca1d0b
-</head>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
 
 <body>
+    <header>
+        <nav class="navbar navbar-default ">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>s
+                <span class="icon-bar"></span>
+            </button>
+
+            <div class="container">
+                <div class="navbar-header">
+                    <img id="img-logo" title="Logo" src="../Imagenes/logo_apple.png" />
+                </div>
+
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a id="txt-navbar" href="../index.html">Inicio</a></li>
+                        <li><a id="txt-navbar" href="">Productos</a></li>
+                        <li class="dropdown">
+                            <a id="txt-navbar" href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Categorias<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a id="txt-navbar" href="#"></a>
+                                </li>
+                                <li>
+                                    <a id="txt-navbar" href="#"></a>
+                                </li>
+                                <li>
+                                    <a id="txt-navbar" href="#"></a>
+                                </li>
+                                <li>
+                                    <a id="txt-navbar" href="#"></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a id="txt-navbar" href="">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
 
     <form class="box" action="crearcuenta.html" method="post">
         <header>Bienvenido</header>
@@ -27,8 +71,13 @@
         <input type="Text" name="email" placeholder="Correo Electronico">
         <input type="Password" name="contraseña" placeholder="Contraseña">
         <input type="Submit" name="d" value="Registrarte">
-    </form>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    </form>
 </body>
 
 </html>
