@@ -1,0 +1,139 @@
+body {
+    margin: 22px;
+    min-height: 100vh;
+    background-image: url("../Imagenes/bar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 1.0;
+}
+
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    width: 75%;
+    margin: auto;
+    display: block;
+}
+
+.form-group {
+    margin: 15px auto;
+    text-align: left;
+    width: 80%;
+}
+
+.checkbox {
+    text-align: left;
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    display: block;
+}
+
+.button {
+    display: inline-block;
+    float: right;
+    margin: auto;
+}
+
+#btn-enviar {
+    width: 200px;
+}
+
+.btn-default {
+    background-color: #7cabd3;
+    color: white;
+    border: 1px solid #36A0FF;
+}
+
+.btn-default:hover {
+    background-color: #2a95f3;
+    box-shadow: 0 0 5px #2a95f3, 0 0 5px #2a95f3, 0 0 5px #2a95f3;
+    color: white;
+    border: none;
+}
+
+.login {
+    margin: 12px auto;
+    display: block;
+    width: 80%;
+    padding: 14px;
+    text-align: center;
+    background-color: #e2dfdf;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.signup {
+    margin: 12px auto;
+    display: block;
+    width: 80%;
+    padding: 14px;
+    text-align: center;
+    background-color: #e2dfdf;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#txtInfo {
+    opacity: 1;
+    color: black;
+}
+
+.btn-login .btn-default {
+    width: 200px;
+    opacity: 1;
+}
+
+form {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #36A0FF;
+    border-radius: 6px;
+    padding: 18px;
+}
+
+input {
+    text-align: center;
+}
+
+select {
+    text-align-last: center;
+}
+
+@media (max-width: 600px) {
+    .checkbox {
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    .button {
+        display: block;
+        width: 100%;
+    }
+    .lbl-recuerdame {
+        display: block;
+        text-align: center;
+        float: none;
+    }
+    .login {
+        margin: 10px auto;
+    }
+}
