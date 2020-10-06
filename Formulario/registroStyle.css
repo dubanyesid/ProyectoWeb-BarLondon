@@ -17,6 +17,7 @@ form {
     width: 75%;
     margin: auto;
     display: block;
+    background: linear-gradient(160deg, gray, black);
 }
 
 .form-group {
