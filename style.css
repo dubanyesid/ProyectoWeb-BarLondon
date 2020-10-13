@@ -1,11 +1,11 @@
 body {
-    min-height: 100vh;
+    /*min-height: 100vh;
     background-image: url("../Imagenes/bar.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
-    opacity: 1.0;
+    background-attachment: fixed;*/
+    background-color: rgb(29, 27, 27);
 }
 
 .footer {
@@ -39,6 +39,10 @@ body {
 
 #txt-navbar {
     color: aliceblue;
+}
+
+#logo {
+    color: white;
 }
 
 #txt-navbar:hover {

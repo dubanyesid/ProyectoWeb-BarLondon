@@ -17,7 +17,6 @@ form {
     width: 75%;
     margin: auto;
     display: block;
-    background: linear-gradient(160deg, gray, black);
 }
 
 .form-group {
@@ -96,6 +95,7 @@ form {
     border: 1px solid #36A0FF;
     border-radius: 6px;
     padding: 18px;
+    background-color: rgb(214, 209, 187);
 }
 
 input {
